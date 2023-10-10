@@ -1,0 +1,166 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="CSS tutorial">
+    <meta name="author" content="BAAZIZ Wissal">
+    <title>CSS</title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-size: 70px; */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 253, 253);
+        }
+        
+        ul.navbar {
+            list-style-type: none;
+            background-color: #ffffff;
+            overflow: hidden;
+        }
+
+        li.navitem {
+            float: left;
+        }
+
+        li.navitem a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.navitem a:hover {
+            background-color: #ddd;
+            color: rgb(0, 0, 0);
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 100px;
+            padding: 20px;
+        }
+      
+        .container1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 100px;
+            /* padding: 20px;
+            font-size: 140px; */
+        }
+        p {
+            color: hsl(0, 0%, 3%);
+            /* font-size: 50%; */
+            font-size: 70px;
+            /* font-size: 1rem; */
+            margin: 90px;
+        }
+        /* .container1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 100px;
+            padding: 20px;
+            font-size: 70px;
+        }
+        p {
+            color: hsl(0, 0%, 3%);
+            font-size: 1em;
+            margin: 90px;
+        } */
+        .image-container {
+            
+            text-align: left;
+            margin-left: 20px;
+        }
+        /* button{
+            background-color: black;
+            color: #ffffff;
+            padding: 0em 0.5em;
+            position: absolute;
+            top: 0;
+            right: 0;
+        } */
+        /* ul.navbar{
+            position: static;
+            top: 0;
+            right: 0;
+        } */
+        /* ul.navbar{
+            position: absolute;
+            top:0;
+            right: 0;
+            background-color: rgb(141, 235, 151);
+            width: 100%;
+            height: 100%;
+        } */
+        /* ul.navbar{
+            position: fixed;
+            top:0;
+            right: 0;
+            background-color: rgb(141, 235, 151);
+            width: 100%;
+            
+        } */
+         /* ul.navbar{
+            position: relative;
+            left: 20;
+            top: 20;
+            background-color: rgb(141, 235, 151);
+            width: 100%;
+            
+        }  */
+        /* .container1{
+            position: relative;
+        } */
+
+    </style>
+</head>
+<body>
+  
+    <ul class="navbar">
+        <li class="navitem"><a href="#">Home</a></li>
+        <li class="navitem"><a href="#">About</a></li>
+        <li class="navitem"><a href="#">Services</a></li>
+        <li class="navitem"><a href="#">Contact</a></li>
+    </ul>
+    <div class="container">
+        <div class="content">
+            <p>
+                <strong>Les méthodes de positionement  en CSS</strong> 
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="css.png" alt="html image">
+        </div>
+    </div>
+    <div class="container1">
+        <div class="content">
+            <p>
+                <strong> les unité en CSS</strong> 
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="css.png" alt="html image">
+        </div>
+        <!-- <div class="button">
+            <button type="button" title="Test">Test</button>
+        </div> -->
+    </div>
+
+
+
+</body>+
+</html>
